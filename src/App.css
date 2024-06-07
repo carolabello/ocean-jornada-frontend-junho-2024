@@ -5,10 +5,12 @@
     width: 300px;
     text-align: center;
     background: rgb(253, 255, 253)
+    transition: all 0.15s ease-in-out;
 }
 
 .card:hover {
     box-shadow: 2px 2px black;
+    translate: -3px -3px;
 }
 
 .card h2 {
